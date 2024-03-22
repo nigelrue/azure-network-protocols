@@ -119,7 +119,7 @@ Step 11. In the Azure Portsl, navigate to the network security groups section. S
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 12. Change the Protocol to "ICMP', select "Deny" for the Action and change the Prioirty to "299" and click "Add".
 </p>
 <br />
 
@@ -127,7 +127,7 @@ Step 5. Createt a new Resource Group. Name it "RG-1".
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 13. Observe how the ICMP traffic timed out due to the adjustments made in the network security group section.
 </p>
 <br />
 
@@ -135,7 +135,7 @@ Step 5. Createt a new Resource Group. Name it "RG-1".
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 14. Navigate to the Azure portal, network security group for VM-2 and switch the Action back to "Allow" and click "Save".
 </p>
 <br />
 
@@ -143,7 +143,7 @@ Step 5. Createt a new Resource Group. Name it "RG-1".
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 15. In Windows PowerShell
 </p>
 <br />
 

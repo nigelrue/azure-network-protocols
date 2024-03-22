@@ -143,7 +143,7 @@ Step 14. Navigate to the Azure portal, network security group for VM-2 and switc
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 15. In Windows PowerShell
+Step 15. In Windows PowerShell, you should notice that the ICMP traffic has resumed pinging. Press "Ctrl+C" to stop the pinging. 
 </p>
 <br />
 
@@ -151,7 +151,7 @@ Step 15. In Windows PowerShell
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 16. In Wireshark, enter "SSH" to filter for SSH traffic. In Windows PowerShell, we will SSH into VM-2 to analyze incoming/outgoing traffic. To do this, type "ssh (VM-2's username@VM-2's private IP address)" and press "Enter". Type in the password for VM-2 and press "Enter".
 </p>
 <br />
 
@@ -159,7 +159,11 @@ Step 5. Createt a new Resource Group. Name it "RG-1".
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 17. After SSH'ing into VM-2, execute these commands into Windows PowerShell and observe the SSH network traffic:
+-id<br>
+-uname -a<br>
+-pwd<br>
+-la -lasth<br>
 </p>
 <br />
 

@@ -159,11 +159,28 @@ Step 16. In Wireshark, enter "SSH" to filter for SSH traffic. In Windows PowerSh
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 17. After SSH'ing into VM-2, execute these commands into Windows PowerShell and observe the SSH network traffic:
+Step 17. After SSH'ing into VM-2, execute these commands into Windows PowerShell and observe the SSH network traffic:<br>
 -id<br>
 -uname -a<br>
 -pwd<br>
 -la -lasth<br>
+Type "Exit" to exit the SSH process in VM-2.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 18. In Wireshrk, filter for DHCP traffic and while in Windows PowerShell, execute the command "ipconfig /renew". This will allow for DHCP to assign VM-2 a new IP address. Observe the traffic in Wireshark.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Step 19. Filter for DNS traffic in Wireshark. In Windows PowerShell, type "nslookup www.google.com" and observe the network traffic. 
 </p>
 <br />
 
@@ -175,35 +192,5 @@ Step 5. Createt a new Resource Group. Name it "RG-1".
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
-</p>
-<br />
 

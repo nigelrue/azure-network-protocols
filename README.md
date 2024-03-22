@@ -163,7 +163,7 @@ Step 17. After SSH'ing into VM-2, execute these commands into Windows PowerShell
 -id<br>
 -uname -a<br>
 -pwd<br>
--la -lasth<br>
+-ls -lasth<br>
 Type "Exit" to exit the SSH process in VM-2.
 </p>
 <br />

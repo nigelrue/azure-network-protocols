@@ -188,7 +188,7 @@ Step 19. Filter for DNS traffic in Wireshark. In Windows PowerShell, type "nsloo
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5. Createt a new Resource Group. Name it "RG-1".
+Step 20. In Wireshark, filter for RDP traffic by typing in "tcp.port == 3389". Observe how there is still incoming/outgoing traffic and this is because this port shows a live stream of traffic at all times.
 </p>
 <br />
 

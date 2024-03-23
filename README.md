@@ -20,10 +20,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1. Setup two virtual machines (VMs) making one a Windows 10 Pro Version 21H2 and the other a Ubuntu Server 20.04 LTS. Ensure these VMs can communicate with each other within the same virtual network.
+- Step 2. Install Wireshark on the Windows 10 Pro VM: Proceed to install Wireshark, a network protocol analyzer software, on the Windows 10 Pro VM. Wireshark enables the capturing and visualization of network traffic, facilitating packet inspection and network behavior analysis.
+- Step 3. Generate network activity between the two VMs utilizing various protocols such as Internet Control Message Protocol (ICMP), Secure Shell (SSH), Dynamic Host Configuration Protocol (DHCP), Domain Name System (DNS) and Remote Desktop Protocol (RDP). Capture and observe this network traffic using Wireshark, applying filters for the mentioned protocols. This observation will show significant details like source and destination IP addresses, as well as packet lengths, offering insights into network behavior and performance.
 
 <h2>Actions and Observations</h2>
 

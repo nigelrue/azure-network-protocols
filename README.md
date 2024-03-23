@@ -40,7 +40,7 @@ Step 1. Create a new Resource Group. Name it "RG-1".
 <img src="https://i.postimg.cc/C1x4S7xX/temp-Image1y88s7.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2. Create a new virtual machine.  using the image: Windows 10 Pro, Version 21H2. Name this virtual machine, "VM-1". Use the same resource group created in step 1, "RG-1". Create a username and password for the virtual machine. 
+Step 2. Create a new virtual machine using the image: Windows 10 Pro, Version 21H2. Name this virtual machine, "VM-1". Use the same resource group created in step 1, "RG-1". Create a username and password for the virtual machine. 
 </p>
 <br />
 
@@ -57,7 +57,7 @@ Step 3. Create another virtual machine using the same resource group, "RG-1". Na
 <img src="https://i.postimg.cc/wMH2nzs5/temp-Image-NZHut-U.avif" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 4. Use Microsoft Remote Desktop to log into the Windows 10 virtual machine's public IP address.
+Step 4. Use Microsoft Remote Desktop to log into VM-1's public IP address.
 </p>
 <br />
 
